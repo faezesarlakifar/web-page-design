@@ -253,6 +253,7 @@ body {
   .Frame2 {
     flex-direction: column;
   }
+}
 .Frame2 button {
   padding: 10px 22px;
   background-color: #e15151;
