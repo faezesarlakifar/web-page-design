@@ -249,6 +249,10 @@ body {
   background-color: white;
   padding: 0 60px;
 }
+@media screen and (max-width: 680px) {
+  .Frame2 {
+    flex-direction: column;
+  }
 .Frame2 button {
   padding: 10px 22px;
   background-color: #e15151;
