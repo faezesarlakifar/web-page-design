@@ -341,3 +341,93 @@ body {
   text-transform: capitalize;
   text-align: center;
 }
+
+.Frame3 {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../assets/Frame3_Mask_Group.svg");
+  background-color: #e15151;
+  background-size: cover;
+  padding: 0 60px;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 680px) {
+  .Frame3 {
+    flex-direction: column;
+  }
+}
+.Frame3 button {
+  padding: 5px 12px;
+  margin: 10px 0px;
+  background-color: #e15151;
+  text-align: center;
+  border: none;
+  border-radius: 83px;
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer;
+}
+.Frame3_action {
+  margin: 16px 0;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+.Frame3_button_style {
+  color: #ffffff;
+}
+.Frame3_title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2b2b2b;
+  align-items: center;
+  padding: 9px 0px 0px 0px;
+  margin: 0px 40px 14px 34px;
+}
+.Frame3_content {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 381x;
+  background-color: #ffffff;
+  border-radius: 47px 47px 0 0;
+  margin: 40px 0px 0px 0px;
+}
+.Frame3_Image {
+  display: flex;
+  justify-content: left;
+}
+@media screen and (max-width: 680px) {
+  .Frame3_Image {
+    flex-direction: column;
+  }
+}
+.Frame3_Image_size {
+  width: 283px;
+  height: auto;
+}
+.Frame3_text_style {
+  margin: 0px 40px 0px 34px;
+}
+@font-face {
+  font-family: "Miama";
+  src: url("../assets/Miama.ttf");
+  }
+.Frame3_different_text {
+  color: #272727;
+  font-size: 2rem;
+  font-weight: 200;
+  font-family:"Miama";
+}
+.Frame3_title1_style {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.Frame3_title2_style {
+  color: #272727;
+  font-size: 1rem;
+  padding: 10px 30px 0px 30px;
+}
