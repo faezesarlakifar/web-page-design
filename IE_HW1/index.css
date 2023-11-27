@@ -239,7 +239,7 @@ body {
   font-style: normal;
   cursor: pointer;
 }
-  
+/************************************************************************************************************************************************************************/
 .Frame2 {
   display: flex;
   align-items: center;
@@ -341,7 +341,7 @@ body {
   text-transform: capitalize;
   text-align: center;
 }
-
+/************************************************************************************************************************************************************************/
 .Frame3 {
   display: flex;
   flex-direction: column;
@@ -430,4 +430,91 @@ body {
   color: #272727;
   font-size: 1rem;
   padding: 10px 30px 0px 30px;
+}
+
+/************************************************************************************************************************************************************************/
+.Frame4 {
+  display: flex;
+  background: white;
+  padding: 0 60px;
+  flex-direction: column;
+  background-image: url("../assets/Frame4_Mask_Group.svg");
+  background-color: #f0f0f6;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 680px) {
+  .Frame4 {
+    flex-direction: column;
+  }
+}
+.Frame4_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  height: 381px;
+  background-color: #e15151;
+  border-radius: 0 0 47px 47px;
+  margin: 0px 0px 40px 0px;
+}
+.Frame4_title1_style {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.Frame4_title2_style {
+  color: #2b2b2b;
+  font-size: 1rem;
+  padding: 10px 30px 0px 30px;
+}
+.Frame4_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 30px 0px 40px;
+}
+.Frame4_icon_size{
+  margin: 5px;
+  width: 15px;
+  height: 15px;
+}
+.Frame4_icon_text {
+  margin-top: 10px;
+  font-size: xx-small;
+  color:white;
+  float: right;
+}
+.Frame4_icons {
+  display: flex;
+  flex-direction: row;
+}
+.Frame4_buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  gap: 4px;
+  flex-wrap: nowrap;
+}
+.Frame4_button1 {
+  padding: 12px 87px;
+  margin: 3px 0px;
+  background-color: #ffffff;
+  text-align: left;
+  border: none;
+  border-radius: 83px;
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer;
+}
+.Frame4_button2 {
+  padding: 12px 50px;
+  margin: 10px 0px;
+  border: 2px solid white;
+  border-radius: 83px;
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer;
 }
