@@ -1,0 +1,93 @@
+@import './_variables.scss';
+
+.Frame4 {
+  display: flex;
+  background: white;
+  padding: 0 60px;
+  flex-direction: column;
+  background-image: url('../assets/backwhite.svg');
+  background-color: $divider;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 680px) {
+    flex-direction: column;
+  }
+  &_content {
+    justify-content: center;
+    margin: 0 275px;
+        &_size{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 638px;
+            height: 381px;
+            background-color: #e15151;
+            border-radius: 0 0 47px 47px;
+            margin: 0px 0px 40px 0px;
+        }
+        &_title {
+                justify-content: center;
+                align-items: center; 
+                padding: 9px 0px 0px 0px;
+                margin: 0px 40px 14px 34px;
+                &_title1_style{
+                    color: $bgColor;
+                    font-size: 2.5rem;
+                    font-weight: 700;
+                }
+                &_title2_style{
+                    color: $secondary;
+                    font-size: 1rem;
+                    padding: 10px 30px 0px 30px;
+                    
+                }
+        }
+        &_icons{
+            display: flex;
+            flex-direction: row;
+
+            &_buttons{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 10px;
+                gap: 4px;
+                flex-wrap: nowrap;
+                &_button1 {
+                    padding: 12px 87px;
+                    margin: 10px 0px;
+                    background-color: #ffffff;
+                    text-align: left;
+                    border: none;
+                    border-radius: 83px;
+                    font-weight: 500;
+                    font-style: normal;
+                    cursor: pointer;
+                }
+                &_button2 {
+                    padding: 12px 50px;
+                    margin: 10px 0px;
+                    border: 2px solid white;
+                    border-radius: 83px;
+                    font-weight: 500;
+                    font-style: normal;
+                    cursor: pointer;
+                }
+
+            }
+            &_items{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 20px 80px 0px 189px;
+                &__size{
+                    margin: 10px;
+                }
+            }
+        }
+
+    
+    }
+
+}
